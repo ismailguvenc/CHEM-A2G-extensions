@@ -1,0 +1,31 @@
+{
+    "extensions": {
+        "scm_mimo": {
+            "enabled": true,
+            "mode": "hook",
+            "fc": 3.4e9,
+            "fs": 1.92e6,
+            "scenario": "A2G",
+            "doppler": "PROPOSED",
+            "nPaths": 6,
+            "xpd_dB": 8.0,
+            "groundArray": {"elements": 2, "spacingWl": 0.5, "axisAzDeg": "auto", "xpol": false},
+            "airArray": {"elements": 2, "spacingWl": 0.5, "axisAzDeg": "auto", "xpol": false},
+            "updateMs": 0.5,
+            "dropDistanceM": 50.0,
+            "crossfadeS": 1.0,
+            "maxDelaySamples": 256,
+            "diffuseWidthHz": [[30, 5.0], [50, 4.5], [70, 4.0], [90, 3.1], [110, 3.2]],
+            "widthRefCarrierHz": 3.51e9,
+            "widthRefSpeed": 5.0,
+            "widthScaling": "carrier_speed",
+            "referenceOrigin": {"lat": 35.72750947, "lon": -78.69595819, "alt": 0.0},
+            "groundAltitudeM": 0.0,
+            "links": [],
+            "nodes": {"LW1": {"lat": 35.727489, "lon": -78.695957, "alt": 10.0}},
+            "trajectoryDelayMs": 200,
+            "pollMs": 20,
+            "seed": 1234
+        }
+    }
+}

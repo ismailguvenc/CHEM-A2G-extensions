@@ -1,0 +1,70 @@
+{
+ "cases": {
+  "scm_SCM_xpol": {
+   "cond_med_db": 2.9002259873510625,
+   "cond_p90_db": 5.96561650530347,
+   "cap10_med": 6.655606141197181,
+   "cap20_med": 13.006830071442462,
+   "rank2_frac": 0.9895666666666667,
+   "wall_s": 5.18997,
+   "buffers_ext": 240000
+  },
+  "scm_PROPOSED_xpol": {
+   "cond_med_db": 2.9707694102001536,
+   "cond_p90_db": 6.051796887595664,
+   "cap10_med": 6.6356508223377855,
+   "cap20_med": 12.983981788439714,
+   "rank2_frac": 0.9887833333333333,
+   "wall_s": 5.14698,
+   "buffers_ext": 240000
+  },
+  "scm_JAKES_xpol": {
+   "cond_med_db": 7.577030553531644,
+   "cond_p90_db": 15.379619621211067,
+   "cap10_med": 5.640374734884482,
+   "cap20_med": 11.678977831467595,
+   "rank2_frac": 0.6875666666666667,
+   "wall_s": 4.93719,
+   "buffers_ext": 240000
+  },
+  "scm_TDL_D_xpol": {
+   "cond_med_db": 1.7328066896472327,
+   "cond_p90_db": 3.406872353491782,
+   "cap10_med": 6.819342225543261,
+   "cap20_med": 13.201159060582746,
+   "rank2_frac": 1.0,
+   "wall_s": 5.18595,
+   "buffers_ext": 240000
+  }
+ },
+ "timeline": {
+  "SCM_xpol": {
+   "cap10_med": 4.9874849999999995,
+   "cap20_med": 11.08905,
+   "cond_med_db": 2.889715,
+   "rank2_frac": 0.9891666666666666,
+   "drops": 75
+  },
+  "PROPOSED_xpol": {
+   "cap10_med": 4.980685,
+   "cap20_med": 11.0847,
+   "cond_med_db": 2.925915,
+   "rank2_frac": 0.9889666666666667,
+   "drops": 75
+  },
+  "JAKES_xpol": {
+   "cap10_med": 4.43017,
+   "cap20_med": 10.14965,
+   "cond_med_db": 7.52419,
+   "rank2_frac": 0.6853666666666667,
+   "drops": 75
+  },
+  "TDL_D_xpol": {
+   "cap10_med": 5.102845,
+   "cap20_med": 11.25205,
+   "cond_med_db": 1.71153,
+   "rank2_frac": 1.0,
+   "drops": 75
+  }
+ }
+}

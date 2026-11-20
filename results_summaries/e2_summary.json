@@ -1,0 +1,153 @@
+{
+ "cases": {
+  "chem_ones": {
+   "cond_med_db": 246.02059991327909,
+   "cond_p90_db": 246.02059991341025,
+   "cap10_med": 4.392317422778596,
+   "cap20_med": 7.651051691178758,
+   "rank2_frac": 0.0,
+   "wall_s": 2.24415,
+   "buffers_ext": 0
+  },
+  "chem_ident": {
+   "cond_med_db": 2.0256084165702223e-10,
+   "cond_p90_db": 4.617396632537585e-10,
+   "cap10_med": 6.918863237274594,
+   "cap20_med": 13.31642296550359,
+   "rank2_frac": 1.0,
+   "wall_s": 2.41789,
+   "buffers_ext": 0
+  },
+  "scm_SCM": {
+   "cond_med_db": 30.828973604839938,
+   "cond_p90_db": 39.587110340896096,
+   "cap10_med": 4.3950152606695765,
+   "cap20_med": 7.899238592525504,
+   "rank2_frac": 0.0,
+   "wall_s": 6.13606,
+   "buffers_ext": 240000
+  },
+  "scm_PROPOSED": {
+   "cond_med_db": 30.010391163710253,
+   "cond_p90_db": 38.80941151261503,
+   "cap10_med": 4.401772272924887,
+   "cap20_med": 7.936942895956502,
+   "rank2_frac": 0.0,
+   "wall_s": 5.7812,
+   "buffers_ext": 240000
+  },
+  "scm_JAKES": {
+   "cond_med_db": 23.92668463877966,
+   "cond_p90_db": 33.20527593409313,
+   "cap10_med": 4.271396467399278,
+   "cap20_med": 8.197019445044644,
+   "rank2_frac": 0.011733333333333333,
+   "wall_s": 5.50091,
+   "buffers_ext": 240000
+  },
+  "scm_TDL_D": {
+   "cond_med_db": 36.40751245007321,
+   "cond_p90_db": 45.03029569269233,
+   "cap10_med": 4.392594106046295,
+   "cap20_med": 7.738545718853232,
+   "rank2_frac": 0.0,
+   "wall_s": 5.55446,
+   "buffers_ext": 240000
+  },
+  "scm_PROPOSED_4wl": {
+   "cond_med_db": 16.28689018947923,
+   "cond_p90_db": 24.80896456467363,
+   "cap10_med": 4.8899359985610005,
+   "cap20_med": 10.022548850186848,
+   "rank2_frac": 0.07288333333333333,
+   "wall_s": 5.5456,
+   "buffers_ext": 240000
+  }
+ },
+ "timeline": {
+  "SCM_0.5wl": {
+   "cap10_med": 4.39588,
+   "cap20_med": 7.890125,
+   "cond_med_db": 31.21065,
+   "rank2_frac": 0.0,
+   "drops": 75
+  },
+  "SCM_4wl": {
+   "cap10_med": 4.849045,
+   "cap20_med": 9.850674999999999,
+   "cond_med_db": 16.9863,
+   "rank2_frac": 0.05963333333333334,
+   "drops": 75
+  },
+  "SCM_10wl": {
+   "cap10_med": 4.89176,
+   "cap20_med": 10.0259,
+   "cond_med_db": 16.18125,
+   "rank2_frac": 0.07096666666666666,
+   "drops": 75
+  },
+  "PROPOSED_0.5wl": {
+   "cap10_med": 4.4026700000000005,
+   "cap20_med": 7.9312000000000005,
+   "cond_med_db": 30.394550000000002,
+   "rank2_frac": 0.0,
+   "drops": 75
+  },
+  "PROPOSED_4wl": {
+   "cap10_med": 4.8585,
+   "cap20_med": 9.901415,
+   "cond_med_db": 16.67185,
+   "rank2_frac": 0.06256666666666667,
+   "drops": 75
+  },
+  "PROPOSED_10wl": {
+   "cap10_med": 4.912685,
+   "cap20_med": 10.08075,
+   "cond_med_db": 16.052,
+   "rank2_frac": 0.07586666666666667,
+   "drops": 75
+  },
+  "JAKES_0.5wl": {
+   "cap10_med": 4.27567,
+   "cap20_med": 8.27862,
+   "cond_med_db": 23.123,
+   "rank2_frac": 0.0228,
+   "drops": 75
+  },
+  "JAKES_4wl": {
+   "cap10_med": 5.274190000000001,
+   "cap20_med": 10.9788,
+   "cond_med_db": 10.826049999999999,
+   "rank2_frac": 0.4377666666666667,
+   "drops": 75
+  },
+  "JAKES_10wl": {
+   "cap10_med": 5.387125,
+   "cap20_med": 11.20705,
+   "cond_med_db": 10.1424,
+   "rank2_frac": 0.4897,
+   "drops": 75
+  },
+  "TDL_D_0.5wl": {
+   "cap10_med": 4.39321,
+   "cap20_med": 7.757009999999999,
+   "cond_med_db": 35.6195,
+   "rank2_frac": 0.0,
+   "drops": 75
+  },
+  "TDL_D_4wl": {
+   "cap10_med": 4.601535,
+   "cap20_med": 8.92427,
+   "cond_med_db": 21.269849999999998,
+   "rank2_frac": 0.0010333333333333334,
+   "drops": 75
+  },
+  "TDL_D_10wl": {
+   "cap10_med": 4.628185,
+   "cap20_med": 9.07018,
+   "cond_med_db": 20.52915,
+   "rank2_frac": 0.0011,
+   "drops": 75
+  }
+ }
+}

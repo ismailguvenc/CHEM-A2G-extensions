@@ -1,0 +1,45 @@
+{
+ "n": 49,
+ "active_frac": 0.5714285714285714,
+ "taps_med": 4.0,
+ "energy_vs_offline_total_db": {
+  "median": -1.3948193448136124,
+  "p10": -4.376218898370243,
+  "p90": 85.96940420706761
+ },
+ "energy_vs_offline_coherent_db": 8.381724833862265,
+ "status": {
+  "avgCirResponseMs": 136.70000000000002,
+  "maxDepth": 3,
+  "name": "sionna",
+  "numSamples": 100000,
+  "referenceOrigin": {
+   "alt": 112.0,
+   "lat": 35.72750947,
+   "lon": -78.69595819
+  },
+  "running": true,
+  "scale": 1.0,
+  "sceneAlignment": {
+   "offset": [
+    -3.7,
+    3.4,
+    0.0
+   ],
+   "scale": 1.0,
+   "scene_config": "aerpaw",
+   "scene_path": "../data/sionna_export/aerpaw_sionna.xml",
+   "units": "m"
+  },
+  "sceneConfig": "aerpaw",
+  "sceneId": "2153e45c-72d4-4d6a-a7a8-e79148d95902",
+  "sceneOffset": {
+   "x": -3.7,
+   "y": 3.4,
+   "z": 0.0
+  },
+  "serverUrl": "http://127.0.0.1:8000",
+  "status": "success",
+  "updateRateMs": 300
+ }
+}

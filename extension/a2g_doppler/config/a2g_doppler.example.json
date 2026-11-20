@@ -1,0 +1,35 @@
+{
+    "extensions": {
+        "a2g_doppler": {
+            "enabled": true,
+            "mode": "hook",
+            "updateMs": 0.5,
+            "phaseUpdate": "MIDPOINT",
+            "dopplerMode": "PER_TAP",
+            "K_dB": 8.5,
+            "shape": "GAUSS",
+            "taps": "ALL",
+            "diffuseWidthHz": [[30, 5.0], [50, 4.5], [70, 4.0], [90, 3.1], [110, 3.2]],
+            "widthRefCarrierHz": 3.51e9,
+            "widthRefSpeed": 5.0,
+            "widthScaling": "carrier_speed",
+            "paths": [
+                {"type": "LOS"},
+                {"type": "GROUND", "reflCoeff": -0.3},
+                {"type": "SCATTERER", "point": [260.0, -140.0, 15.0], "gainDb": -6.0},
+                {"type": "SCATTERER", "point": [-330.0, 260.0, 20.0], "gainDb": -9.0},
+                {"type": "FIXED", "delayUs": 2.0, "dopplerHz": -30.0, "gainDb": -15.0, "K_dB": "inf"}
+            ],
+            "referenceOrigin": {"lat": 35.72750947, "lon": -78.69595819, "alt": 0.0},
+            "groundAltitudeM": 0.0,
+            "links": [],
+            "nodes": {"LW1": {"lat": 35.727489, "lon": -78.695957, "alt": 10.0}},
+            "trajectoryDelayMs": 200,
+            "pollMs": 20,
+            "tapUpdateMs": 1.0,
+            "sampleRateHz": 1.92e6,
+            "seed": 1234,
+            "oscImpairment": {"enable": false, "driftHzPer30min": 125, "jitterHzRms": 2.0, "jitterHoldMs": 100}
+        }
+    }
+}
